@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.management.sarab.controller.DashboardController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="32.0" prefWidth="527.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="17.0" layoutY="85.0" mnemonicParsing="false" onAction="#adminEvent" prefHeight="50.0" prefWidth="518.0" style="-fx-background-color: green;" text="Admin" textFill="WHITE" />
+      <Button layoutX="17.0" layoutY="144.0" mnemonicParsing="false" onAction="#employeeEvent" prefHeight="50.0" prefWidth="518.0" style="-fx-background-color: green;" text="Employee" textFill="WHITE" />
+      <Button layoutX="17.0" layoutY="203.0" mnemonicParsing="false" onAction="#logoutEvent" prefHeight="50.0" prefWidth="518.0" style="-fx-background-color: blue;" text="Logout" textFill="WHITE" />
+      <Button layoutX="17.0" layoutY="263.0" mnemonicParsing="false" onAction="#exitEvent" prefHeight="50.0" prefWidth="518.0" style="-fx-background-color: red;" text="Exit" textFill="WHITE" />
+   </children>
+</AnchorPane>
